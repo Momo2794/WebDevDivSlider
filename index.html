@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Card Tutorial</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+
+        <div class="slider">
+            <div class="slider-nav">
+                <a class="link" id="a1" href="#card1" onclick="linkclicked('1')">1</a>
+                <a class="link" id="a2" href="#card2" onclick="linkclicked('2')">2</a>
+                <a class="link" id="a3" href="#card3" onclick="linkclicked('3')">3</a>
+                <a class="link" id="a4" href="#card4" onclick="linkclicked('4')">4</a>
+                <a class="link" id="a5" href="#card5" onclick="linkclicked('5')">5</a>
+                <a class="link" id="a6" href="#card6" onclick="linkclicked('6')">6</a>
+                <a class="link" id="a7" href="#card7" onclick="linkclicked('7')">7</a>
+            </div>
+            
+            <div class="iu-card">
+                <div class="card active" id="card1"><h1>1</h1></div>
+                <div class="card" id="card2"><h1>2</h1></div>
+                <div class="card" id="card3"><h1>3</h1></div>
+                <div class="card" id="card4"><h1>4</h1></div>
+                <div class="card" id="card5"><h1>5</h1></div>
+                <div class="card" id="card6"><h1>6</h1></div>
+                <div class="card" id="card7"><h1>7</h1></div>
+            </div>
+
+            <button class="arrow" id="arrow-left" onclick="linkto(0)"><span>&#60;</span></button>
+            <button class="arrow" id="arrow-right" onclick="linkto(1)"><span>&#62;</span></button>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    background: rgb(168, 195, 235);
+}
+
+.slider-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-nav a {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.5em;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    border: solid white;
+    border-radius: 50%;
+}
+
+.iu-card {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h1 {
+    color: rgb(255, 255, 255);
+}
+
+#card1 {
+    background-color: rgb(160, 178, 209);
+}
+
+#card2 {
+    background-color: rgb(132, 164, 209);
+}
+
+#card3 {
+    background-color: rgb(95, 133, 189);
+}
+
+#card4 {
+    background-color: rgb(60, 96, 151);
+}
+
+#card5 {
+    background-color: rgb(40, 70, 114);
+}
+
+#card6 {
+    background-color: rgb(29, 59, 104);
+}
+
+#card7 {
+    background-color: rgb(18, 43, 80);
+}
+
+.arrow {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 13px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#arrow-left {
+    position: absolute;
+    top: 50%;
+    left: 15px;;
+}
+
+#arrow-right {
+    position: absolute;
+    top: 50%;
+    right: 15px;;
+}
+
+.arrow:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
